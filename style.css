@@ -1,1 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  color: #1f2937;
+  line-height: 1.6;
+  padding: 30px 16px;
+}
+
+header {
+  max-width: 1000px;
+  margin: 0 auto 30px auto;
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  color: white;
+  padding: 40px 24px;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+header h1 {
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.1rem;
+  margin-bottom: 18px;
+  color: #dbeafe;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  background: rgba(255, 255, 255, 0.14);
+  padding: 10px 16px;
+  border-radius: 999px;
+  transition: 0.3s ease;
+  font-weight: bold;
+}
+
+.links a:hover {
+  background: white;
+  color: #1e3a8a;
+}
+
+section {
+  max-width: 1000px;
+  margin: 0 auto 24px auto;
+  background: white;
+  padding: 28px 24px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-bottom: 18px;
+  color: #0f172a;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 8px;
+}
+
+h3 {
+  font-size: 1.15rem;
+  margin-bottom: 8px;
+  color: #1d4ed8;
+}
+
+p {
+  margin-bottom: 12px;
+}
+
+.project,
+.experience-item,
+.skills-category,
+.education-item,
+.publication-item {
+  padding: 18px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.project:last-child,
+.experience-item:last-child,
+.skills-category:last-child,
+.education-item:last-child,
+.publication-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #1d4ed8;
+}
+
+a:hover {
+  color: #1e40af;
+}
+
+strong {
+  color: #111827;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 20px 12px;
+  }
+
+  header {
+    padding: 32px 18px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+
+  section {
+    padding: 22px 18px;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  .links a {
+    width: 100%;
+    text-align: center;
+  }
+}
