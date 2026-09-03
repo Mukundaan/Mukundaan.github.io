@@ -5,125 +5,190 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mukundaan Sriraman | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Mukundaan Sriraman</h1>
-    <p>Data Analyst | Data Science Graduate</p>
-    <div class="links">
-      <a href="https://linkedin.com/in/mukundaan-sriraman" target="_blank">LinkedIn</a>
-      <a href="https://github.com/Mukundaan" target="_blank">GitHub</a>
-      <a href="mailto:mukundaan07@gmail.com">Email</a>
+
+  <div class="grid-index" aria-hidden="true">
+    <a href="#about">01</a>
+    <a href="#experience">02</a>
+    <a href="#projects">03</a>
+    <a href="#skills">04</a>
+    <a href="#education">05</a>
+    <a href="#publications">06</a>
+    <a href="#contact">07</a>
+  </div>
+
+  <header class="hero" id="top">
+    <div class="hero-main">
+      <p class="doc-tag">Fig. 00 — Profile summary</p>
+      <h1>Mukundaan<br>Sriraman</h1>
+      <p class="hero-lede">Passionate about data science with hands-on experience as an SAP Cloud Analyst, creating dashboards, building data models, and improving reporting processes. Recently completed an MSc in Data Science, strengthening my expertise in analytics, machine learning, and data-driven problem solving.</p>
+
+      <div class="hero-chart" aria-hidden="true">
+        <svg viewBox="0 0 460 150" class="axis-svg">
+          <line x1="8" y1="8" x2="8" y2="130" class="axis-line"></line>
+          <line x1="8" y1="130" x2="452" y2="130" class="axis-line"></line>
+          <polyline class="axis-path" points="8,120 90,100 180,60 300,40 452,14"></polyline>
+          <circle cx="8" cy="120" r="3.5" class="axis-dot"></circle>
+          <circle cx="90" cy="100" r="3.5" class="axis-dot"></circle>
+          <circle cx="180" cy="60" r="3.5" class="axis-dot"></circle>
+          <circle cx="300" cy="40" r="3.5" class="axis-dot"></circle>
+          <circle cx="452" cy="14" r="3.5" class="axis-dot"></circle>
+        </svg>
+      </div>
+
+      <div class="links">
+        <a href="https://linkedin.com/in/mukundaan-sriraman" target="_blank">LinkedIn</a>
+        <a href="https://github.com/Mukundaan" target="_blank">GitHub</a>
+        <a href="mailto:mukundaan07@gmail.com">Email</a>
+      </div>
+    </div>
+
+    <div class="title-block">
+      <div class="tb-row"><span>Name</span><strong>Mukundaan Sriraman</strong></div>
+      <div class="tb-row"><span>Role</span><strong>Data Analyst</strong></div>
+      <div class="tb-row"><span>Field</span><strong>Data Science</strong></div>
+      <div class="tb-row"><span>Based</span><strong>Sheffield, UK</strong></div>
+      <div class="tb-row"><span>Rev.</span><strong>Sep 2026</strong></div>
+    </div>
+
+    <div class="stat-plate">
+      <div class="stat"><strong>14,000+</strong><span>ToS &amp; privacy documents analysed</span></div>
+      <div class="stat"><strong>20+</strong><span>BI reports delivered</span></div>
+      <div class="stat"><strong>10+</strong><span>dashboards built</span></div>
+      <div class="stat"><strong>5+</strong><span>data sources integrated</span></div>
+      <div class="stat"><strong>3</strong><span>ML projects shipped</span></div>
     </div>
   </header>
 
-  <section>
-    <h2>About Me</h2>
-    <p><p>Passionate about data science with hands-on experience as an SAP Cloud Analyst, creating dashboards, building data models, and improving reporting processes. Recently completed an MSc in Data Science, strengthening my expertise in analytics, machine learning, and data-driven problem solving. I am eager to apply these skills to real-world projects and continue growing in the data and analytics domain.</p></p>
-  </section>
+  <main>
 
-  <section>
-  <h2>Projects</h2>
+    <section class="sheet" id="about">
+      <p class="sheet-tag">Sheet 01 of 06</p>
+      <h2>About</h2>
+      <p>Passionate about data science with hands-on experience as an SAP Cloud Analyst, creating dashboards, building data models, and improving reporting processes. Recently completed an MSc in Data Science, strengthening my expertise in analytics, machine learning, and data-driven problem solving. I am eager to apply these skills to real-world projects and continue growing in the data and analytics domain.</p>
+    </section>
 
-  <div class="project">
-    <h3>Automated Detection of Unfair Statements in Terms of Service and Privacy Policies</h3>
-    <p>
-      Built an NLP pipeline to detect unfair clauses in Terms of Service and Privacy Policies by analysing
-      14,000+ documents and training multiple models. Used Python, Hugging Face, NLTK, PyTorch,
-      Scikit-learn, and transformer models such as BERT and LLaMA in Jupyter Notebook. Improved
-      detection accuracy by refining models and integrating approaches such as Active Learning.
-    </p>
-  </div>
+    <section class="sheet" id="experience">
+      <p class="sheet-tag">Sheet 02 of 06</p>
+      <h2>Experience</h2>
+      <div class="entry">
+        <div class="entry-head">
+          <h3>SAP Cloud Analyst — Intern</h3>
+          <p class="entry-meta">Altrocks Tech Private Ltd · Chennai, India · Jun 2024 – Aug 2024</p>
+        </div>
+        <ul>
+          <li>Created 10+ dashboards and 20+ reports in SAP Analytics Cloud to deliver business insights.</li>
+          <li>Integrated 5+ data sources and built data models to streamline reporting and ensure accurate data flow.</li>
+          <li>Collaborated with 3 cross-functional teams to gather requirements and deliver tailored BI solutions.</li>
+          <li>Worked closely with teams to meet deadlines and ensure successful delivery of BI reports.</li>
+          <li>Proactively resolved issues to keep tasks on track and deliver dashboards on time.</li>
+        </ul>
+      </div>
+    </section>
 
-  <div class="project">
-    <h3>AI Deepfake Voice Detection using Machine Learning</h3>
-    <p>
-      Developed a machine learning project focused on detecting deepfake voice patterns and identifying
-      manipulated audio. This work was also taken forward as a paper submission for ICCCNet.
-    </p>
-  </div>
+    <section class="sheet" id="projects">
+      <p class="sheet-tag">Sheet 03 of 06</p>
+      <h2>Projects</h2>
 
-  <div class="project">
-    <h3>Machine Learning-Driven Crop Recommendation System</h3>
-    <p>
-      Created a machine learning-based crop recommendation system to suggest suitable crops using
-      agricultural and environmental input data.
-    </p>
-  </div>
-</section>
-</section>
-  </section>
+      <div class="entry">
+        <h3>Automated Detection of Unfair Statements in Terms of Service and Privacy Policies</h3>
+        <p>Built an NLP pipeline to detect unfair clauses in Terms of Service and Privacy Policies by analysing 14,000+ documents and training multiple models. Improved detection accuracy by refining models and integrating approaches such as Active Learning.</p>
+        <div class="tags">
+          <span>Python</span><span>Hugging Face</span><span>NLTK</span><span>PyTorch</span><span>Scikit-learn</span><span>BERT</span><span>LLaMA</span><span>Jupyter</span>
+        </div>
+      </div>
 
-  <section>
-  <h2>Skills</h2>
+      <div class="entry">
+        <h3>AI Deepfake Voice Detection using Machine Learning</h3>
+        <p>Developed a machine learning project focused on detecting deepfake voice patterns and identifying manipulated audio. This work was also taken forward as a paper submission for ICCCNet.</p>
+        <div class="tags">
+          <span>Python</span><span>Machine Learning</span><span>Audio Analysis</span>
+        </div>
+      </div>
 
-  <div class="skills-category">
-    <h3>Programming & Databases</h3>
-    <p>Python, R, SQL, C, database design, querying, and data integration.</p>
-  </div>
+      <div class="entry">
+        <h3>Machine Learning-Driven Crop Recommendation System</h3>
+        <p>Created a machine learning-based crop recommendation system to suggest suitable crops using agricultural and environmental input data.</p>
+        <div class="tags">
+          <span>Python</span><span>Machine Learning</span><span>Scikit-learn</span>
+        </div>
+      </div>
+    </section>
 
-  <div class="skills-category">
-    <h3>Data Engineering</h3>
-    <p>Data cleaning, transformation, feature engineering, and pipeline building.</p>
-  </div>
+    <section class="sheet" id="skills">
+      <p class="sheet-tag">Sheet 04 of 06</p>
+      <h2>Skills</h2>
 
-  <div class="skills-category">
-    <h3>Data Visualization</h3>
-    <p>SAP Analytics Cloud, Excel, Matplotlib, and Plotly for dashboards, reporting, and statistical or interactive visualisation.</p>
-  </div>
+      <div class="skill-row">
+        <h3>Programming &amp; databases</h3>
+        <div class="tags">
+          <span>Python</span><span>R</span><span>SQL</span><span>C</span><span>Database design</span><span>Data integration</span>
+        </div>
+      </div>
 
-  <div class="skills-category">
-    <h3>Machine Learning & Frameworks</h3>
-    <p>Scikit-learn, PyTorch, TensorFlow, Hugging Face, model development, and evaluation.</p>
-  </div>
-</section>
-</section>
+      <div class="skill-row">
+        <h3>Data engineering</h3>
+        <div class="tags">
+          <span>Data cleaning</span><span>Transformation</span><span>Feature engineering</span><span>Pipeline building</span>
+        </div>
+      </div>
 
-  <section>
-  <h2>Experience</h2>
+      <div class="skill-row">
+        <h3>Data visualisation</h3>
+        <div class="tags">
+          <span>SAP Analytics Cloud</span><span>Excel</span><span>Matplotlib</span><span>Plotly</span>
+        </div>
+      </div>
 
-  <div class="experience-item">
-    <h3>SAP Cloud Analyst (Intern)</h3>
-    <p><strong>Altrocks Tech Private Ltd</strong> | Chennai, India | Jun 2024 - Aug 2024</p>
-    <ul>
-      <li>Created 10+ dashboards and 20+ reports in SAP Analytics Cloud to deliver business insights.</li>
-      <li>Integrated 5+ data sources and built data models to streamline reporting and ensure accurate data flow.</li>
-      <li>Collaborated with 3 cross-functional teams to gather requirements and deliver tailored BI solutions.</li>
-      <li>Worked closely with teams to meet deadlines and ensure successful delivery of BI reports.</li>
-      <li>Proactively resolved issues to keep tasks on track and deliver dashboards on time.</li>
-    </ul>
-  </div>
-</section>
+      <div class="skill-row">
+        <h3>Machine learning &amp; frameworks</h3>
+        <div class="tags">
+          <span>Scikit-learn</span><span>PyTorch</span><span>TensorFlow</span><span>Hugging Face</span>
+        </div>
+      </div>
+    </section>
 
-  <section>
-  <h2>Education</h2>
+    <section class="sheet" id="education">
+      <p class="sheet-tag">Sheet 05 of 06</p>
+      <h2>Education</h2>
 
-  <div class="education-item">
-    <h3>University of Sheffield</h3>
-    <p>MSc Data Science | Sheffield, UK | Sep 2024 - Jan 2026</p>
-  </div>
+      <div class="entry entry-line">
+        <h3>University of Sheffield</h3>
+        <p class="entry-meta">MSc Data Science · Sheffield, UK · Sep 2024 – Jan 2026</p>
+      </div>
 
-  <div class="education-item">
-    <h3>SRM University</h3>
-    <p>B.Tech in Computer Science | Chennai, India | Sep 2020 - May 2024</p>
-  </div>
-</section>
+      <div class="entry entry-line">
+        <h3>SRM University</h3>
+        <p class="entry-meta">B.Tech in Computer Science · Chennai, India · Sep 2020 – May 2024</p>
+      </div>
+    </section>
 
-  <section>
-  <h2>Publications</h2>
+    <section class="sheet" id="publications">
+      <p class="sheet-tag">Sheet 06 of 06</p>
+      <h2>Publications</h2>
 
-  <div class="publication-item">
-    <h3>AI Deepfake Voice Detection using Machine Learning</h3>
-    <p>Submitted a paper based on this project to the Conference on Computing and Communication Networks (ICCCNet) in April 2024.</p>
-  </div>
-</section>
-  
-  <section>
-  <h2>Contact</h2>
-  <p>If you would like to connect or discuss opportunities, feel free to reach out.</p>
-  <p>Email: <a href="mailto:mukundaan07@gmail.com">mukundaan07@gmail.com</a></p>
-  <p>LinkedIn: <a href="https://linkedin.com/in/mukundaan-sriraman" target="_blank">linkedin.com/in/mukundaan-sriraman</a></p>
-  <p>GitHub: <a href="https://github.com/Mukundaan" target="_blank">github.com/Mukundaan</a></p>
-</section>
+      <div class="entry entry-line">
+        <h3>AI Deepfake Voice Detection using Machine Learning</h3>
+        <p class="entry-meta">Submitted to the Conference on Computing and Communication Networks (ICCCNet), April 2024.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="contact" id="contact">
+    <p class="doc-tag">End of sheet — get in touch</p>
+    <h2>Let's talk data</h2>
+    <p>If you would like to connect or discuss opportunities, feel free to reach out.</p>
+    <div class="title-block footer-block">
+      <div class="tb-row"><span>Email</span><strong><a href="mailto:mukundaan07@gmail.com">mukundaan07@gmail.com</a></strong></div>
+      <div class="tb-row"><span>LinkedIn</span><strong><a href="https://linkedin.com/in/mukundaan-sriraman" target="_blank">linkedin.com/in/mukundaan-sriraman</a></strong></div>
+      <div class="tb-row"><span>GitHub</span><strong><a href="https://github.com/Mukundaan" target="_blank">github.com/Mukundaan</a></strong></div>
+    </div>
+  </footer>
+
 </body>
 </html>
